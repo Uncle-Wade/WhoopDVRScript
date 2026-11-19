@@ -1,4 +1,4 @@
-# FPV DVR Cleaner for BetaFPV Air camera
+# FPV DVR Cleaner 
 
 A Windows batch script that uses FFmpeg to clean up analog FPV goggle DVR footage. Tuned for the BetaFPV Air camera (16:9).
 Also includes general version for tinywhoop cameras
