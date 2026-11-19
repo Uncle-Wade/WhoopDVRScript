@@ -1,9 +1,11 @@
 # FPV DVR Cleaner for BetaFPV Air camera
 
 A Windows batch script that uses FFmpeg to clean up analog FPV goggle DVR footage. Tuned for the BetaFPV Air camera (16:9).
-I'll add a general tinywhoop version later when i reinstall the C03 on my air65
+Also includes general version for tinywhoop cameras
 
-Left is raw DVR, right is cleaned. 
+Tweaking the script to suit your camera and DVR quality is recommended, and it's possible to have Claude code refine the script for you
+
+Left is raw DVR, right is cleaned. (Air Cam)
 
 ![Leaves](docs/images/leaves1.png)
 
@@ -13,11 +15,11 @@ Left is raw DVR, right is cleaned.
 
 ## What it does
 
-- Removes rainbow false color and chroma noise without blurring detail
+- Removes rainbow false color and chroma noise without blurring detail ( Air Cam version )
 - Light sharpening
 - Fixes the aspect ratio so 16:9 footage doesn't play back squished (keeps the original 720x480)
-- Encodes to HEVC, falling back to H.264. Files end up roughly half the size of the original.
-- Adds a silent audio track so Telegram doesn't treat the clip as a GIF ( and so your ears don't get raped)
+- Encodes to HEVC, falling back to H.264. Files end up roughly half the size of the original. ( Depending on CRF )
+- Adds a silent audio track so Telegram doesn't treat the clip as a GIF ( and so your ears don't get raped )
 - Portable: no install or admin rights needed
 
 ## Usage
