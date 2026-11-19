@@ -17,7 +17,7 @@ Left is raw DVR, right is cleaned. (Air Cam)
 
 - Removes rainbow false color and chroma noise without blurring detail ( Air Cam version )
 - Light sharpening
-- Fixes the aspect ratio so 16:9 footage doesn't play back squished (keeps the original 720x480)
+- Fixes the aspect ratio so 16:9 footage doesn't play back squished (keeps the original 720x480, so you don't have resampling problems) ( configurable between 16:9, 4:3, and no scaling )
 - Encodes to HEVC, falling back to H.264. Files end up roughly half the size of the original. ( Depending on CRF )
 - Adds a silent audio track so Telegram doesn't treat the clip as a GIF ( and so your ears don't get raped )
 - Portable: no install or admin rights needed
